@@ -1,0 +1,8 @@
+/* Podemos criar um arquivo CSS para cada elemento de nossa pagina, para organização do codigo.
+Para linkar os novos arquivos, podemos utilizar o @import dentro do style.css que está linkado ao nosso index.html, assim, o CSS fica organizado. */
+@import "./global.css";
+@import "./header.css";
+@import "./introducao.css";
+@import "./experiencia.css";
+@import "./formacao.css";
+@import "./footer.css";
