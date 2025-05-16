@@ -29,6 +29,18 @@
   color: #ffffff;
 }
 
+.footer-links {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.footer-links a:hover {
+  color: #67dd0a;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
 .footer-copy {
   grid-column: 1 / -1;
   font-size: 1.125rem;
@@ -42,5 +54,9 @@
   }
   .footer-contato li {
     font-size: 1.5rem;
+  }
+  .footer-links {
+    font-size: 1.5rem;
+    gap: 15px;
   }
 }
